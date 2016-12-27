@@ -3,3 +3,9 @@ Memberships
 * User should see link for pro plan on home page
 * Basic plan link should point to the regular devise sign up form
 * Pro plan link should point to point to a custom sign up form
+
+ActiveRecord - 'model' in mvc, capabilities that are given to certain classes (schema)
+(object relational mapping system (SQL database))
+Parameters - action controller, query string (after question mark)
+second type -> data sent by HTTP POST request
+Substitution - mentally interchange variables for what they mean
