@@ -12,7 +12,7 @@ Substitution - mentally interchange variables for what they mean
 
 Stripe Integration
 * Users should have a Stripe customer token in the users table
-* Javascript should prevent pro form from submitting when user fills it out,
+* Javascript should prevent pro form from submitting after user fills it out,
 shoud send card info to Stripe, Stripe will return with card token
 * Javascript should send user fields and card token to rails app for validation,
 rails app should validate user fields. Note if plan 1 or 2
