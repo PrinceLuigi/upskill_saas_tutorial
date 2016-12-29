@@ -5,6 +5,8 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :trackable, :validatable
          
   belongs_to :plan
+  has_one :profile
+  
   # If pro user passes validations (email, password fields, etc.),
   # call Stripe and tell Stripe to set up a subscription
   # upon charging the customer's card
