@@ -9,7 +9,7 @@ ActionMailer::Base.smtp_settings = {
   :address        => ENV['MAILGUN_SMTP_SERVER'],
   :user_name      => ENV['MAILGUN_SMTP_LOGIN'],
   :password       => ENV['MAILGUN_SMTP_PASSWORD'],
-  :domain         => 'sleepy-eyrie-94548.herokuapp.com',
+  :domain         => 'https://shrouded-inlet-18100.herokuapp.com/',
   :authentication => :plain,
 }
 ActionMailer::Base.delivery_method = :smtp
